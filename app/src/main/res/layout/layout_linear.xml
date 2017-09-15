@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+展示LinearLayout的j基本使用方法
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center">
+
+    <!--
+    xmlns:android代表一个xml的命名空间
+    xmlns:tools代表一个xml的命名空间
+
+    gravity用于布局中，控制子视图的对齐方式。android:gravity="center"会使子视图水平和垂直沟通
+    -->
+
+    <TextView
+        android:id="@+id/test1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout1"/>
+
+    <TextView
+        android:id="@+id/text2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Linear_Layout2"/>
+
+    <!--
+    android:id这会为视图赋予唯一的标识符。
+    只有在第一次定义资源 ID 时，才需要在资源类型之前加一个加号 (+)。
+    参考：https://developer.android.google.cn/training/basics/firstapp/building-ui.html#TextInput
+
+    layout_gravity用于子视图中，控制子视图在布局中的对其方式
+    -->
+
+</LinearLayout>

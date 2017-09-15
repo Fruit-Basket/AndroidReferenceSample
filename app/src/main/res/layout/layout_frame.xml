@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+展示FrameLayout的使用方法
+FrameLayout为每一个加入其中的组建创建一个空白的区域（称为一个帧），每个子组件占据一帧。帧会叠放在一起
+-->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="100px"
+        android:width="100px"
+        android:background="#f00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="80px"
+        android:width="80px"
+        android:background="#0f0"/>
+
+    <!--
+    先定义的TextView位于底层，后定义的TextView位于上层
+    -->
+
+
+</FrameLayout>

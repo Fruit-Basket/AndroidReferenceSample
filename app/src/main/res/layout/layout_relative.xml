@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+RelativeLayout内的子控件的位置总是相对兄弟组件、父容器来决定的
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    1.设置控件相对于另一视图的位置
+        layout_below
+        layout_above
+        layout_toLeftOf
+        layout_toRightOf
+
+    2.设置控件相对于另一一个控件的对其方式
+         layout_alignBaseline本元素的基线和某元素的基线对齐。基线指英语簿中的第三条线，基线对齐指英文单词间的对其
+         layout_alignTop本元素的上边缘和某元素的上边缘对齐
+         layout_alignLeft
+         layout_alignRight
+         layout_alignBottom
+
+    3.设置控件相对于父控件的对齐方式
+        layout_alignParentTop贴紧父元素的上边缘
+        layout_alignParentBottom
+        layout_alignParentLeft
+        layout_alignParentRight
+
+    4.设置控件的方向
+        layout_centerHrizontal
+        layout_centerVertical
+        layout_centerInparent相对于父容器完全居中
+
+    5.设置控件的留白
+        layout_marginTop
+        layout_marginBottom
+        layout_marginLeft
+        layout_marginRight
+    -->
+
+</RelativeLayout>

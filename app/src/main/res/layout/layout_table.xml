@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+展示TableLayout的使用方法
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="2"
+        >
+
+        <!--
+        Shrinkable：如果某个列被设置为Shrinkable，那么该列的所有单元格的宽度可以被收缩，以保证该表格能适应父容器的狂赌
+        Stretchable：如果某个列被设为Stretchable，那么该列的所有单元格的宽度可以被拉伸，以保证组建能完全填满表格空余空间
+        Collapsed：如果某个列被设为Stretchable，那么该列的所有单元格会被隐藏
+
+        列表从0开始
+        -->
+
+    </TableLayout>
+
+</LinearLayout>
