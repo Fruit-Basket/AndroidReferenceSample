@@ -11,7 +11,7 @@ FrameLayout为每一个加入其中的组建创建一个空白的区域（称为
     android:layout_height="match_parent">
 
     <TextView
-        android:="@+id/view1"
+        android:id="@+id/view1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -20,6 +20,7 @@ FrameLayout为每一个加入其中的组建创建一个空白的区域（称为
         android:background="#f00"/>
 
     <TextView
+        android:id="@+id/view2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

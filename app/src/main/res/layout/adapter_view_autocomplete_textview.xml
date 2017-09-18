@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:id="@+id/test_actv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="choose a book please"
+        android:dropDownHorizontalOffset="10dp"
+        android:completionThreshold="1">
+        <!--
+        completionHint提示语
+        dropDownHorizontalOffset水平偏移
+        completionThreshold至少输入的字数
+        -->
+    </AutoCompleteTextView>
+
+</LinearLayout>

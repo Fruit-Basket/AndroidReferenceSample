@@ -36,20 +36,20 @@ public class LinearLayoutActivity extends Activity {
             Log.d(TAG,"use code create ui");
 
             LinearLayout linearLayout=new LinearLayout(this);
-            linearLayout.setOrientation(LinearLayout.VERTICAL);
             linearLayout.setLayoutParams(
                     new LinearLayout.LayoutParams(
                             LinearLayout.LayoutParams.MATCH_PARENT,
                             LinearLayout.LayoutParams.MATCH_PARENT
                     )
             );
+            linearLayout.setOrientation(LinearLayout.VERTICAL);
             linearLayout.setGravity(android.view.Gravity.CENTER);
 
             TextView textView=new TextView(this);
             textView.setLayoutParams(
-                    new ViewGroup.LayoutParams(
-                            ViewGroup.LayoutParams.WRAP_CONTENT,
-                            ViewGroup.LayoutParams.WRAP_CONTENT
+                    new LinearLayout.LayoutParams(
+                            LinearLayout.LayoutParams.WRAP_CONTENT,
+                            LinearLayout.LayoutParams.WRAP_CONTENT
                     )
             );
             textView.setText("Linear Layout (use code)");

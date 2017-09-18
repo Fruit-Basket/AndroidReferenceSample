@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+展示ListView的使用方法
+-->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="test1_lv"/>
+
+    <ListView
+        android:id="@+id/test1_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#F00"
+        android:dividerHeight="2px"
+        android:entries="@array/items">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="testf2_lv"/>
+
+    <ListView
+        android:id="@+id/test2_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#0F0"
+        android:dividerHeight="2px"
+        >
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="test3_lv"/>
+
+    <ListView
+        android:id="@+id/test3_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00F"
+        android:dividerHeight="2px"
+        >
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="test4_lv"/>
+
+    <ListView
+        android:id="@+id/test4_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#F00"
+        android:dividerHeight="2px"
+        />
 
 </LinearLayout>
