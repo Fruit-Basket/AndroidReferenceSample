@@ -38,7 +38,7 @@
     只有在第一次定义资源 ID 时，才需要在资源类型之前加一个加号 (+)。
     参考：https://developer.android.google.cn/training/basics/firstapp/building-ui.html#TextInput
 
-    layout_gravity用于子视图中，控制子视图在布局中的对其方式
+    layout_gravity用于子视图中，控制子视图在布局中的对齐方式
     -->
 
 </LinearLayout>

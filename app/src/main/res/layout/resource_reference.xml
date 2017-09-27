@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/test_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <!--
+        @android:resource_type/resource_name引用系统的共有资源
+        @*android:resource_type/resource_name引用系统的非公有资源
+        ？[<package_name>:][<resource_type>/][<resource_name>]表示当前App使用的theme中的package_name这个包中类型为resource_type的叫resource_name的资源
+       -->
+
+    </TextView>
+
+
+</LinearLayout>

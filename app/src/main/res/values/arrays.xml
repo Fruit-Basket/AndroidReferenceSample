@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-用于adapter_view_list;
+用于adapter_view_list.xml, adapter_view_spinner;
 -->
 <resources>
     <string-array name="items">
