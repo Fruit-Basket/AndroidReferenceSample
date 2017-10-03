@@ -1,0 +1,23 @@
+一些特殊Android Xml 属性说明
+
+一 、命名空间
+xmlns:android代表一个xml的命名空间
+xmlns:tools代表一个xml的命名空间
+
+二、布局
+gravity用于布局中，控制子视图的对齐方式。android:gravity="center"会使子视图水平和垂直沟通
+layout_gravity用于子视图中，控制子视图在布局中的对齐方式
+
+三、特殊使用方法说明
+android:id这会为视图赋予唯一的标识符。
+只有在第一次定义资源 ID 时，才需要在资源类型之前加一个加号 (+)。
+参考：https://developer.android.google.cn/training/basics/firstapp/building-ui.html#TextInput
+
+四、特殊引用
+@android:resource_type/resource_name引用系统的共有资源
+@*android:resource_type/resource_name引用系统的非公有资源
+？[<package_name>:][<resource_type>/][<resource_name>]表示当前App使用的theme中的package_name这个包中类型为resource_type的叫resource_name的资源
+
+@+id/android:list。anroid:list引用的是android.R.id.list；这句语句会生成R.id.android_list
+
+其他

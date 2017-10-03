@@ -32,5 +32,4 @@ FrameLayout为每一个加入其中的组建创建一个空白的区域（称为
     先定义的TextView位于底层，后定义的TextView位于上层
     -->
 
-
 </FrameLayout>

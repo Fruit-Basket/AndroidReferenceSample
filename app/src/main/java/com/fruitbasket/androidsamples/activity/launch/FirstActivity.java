@@ -1,4 +1,4 @@
-package com.fruitbasket.androidsamples.activity;
+package com.fruitbasket.androidsamples.activity.launch;
 
 import android.app.Activity;
 import android.content.Intent;

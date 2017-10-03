@@ -41,7 +41,7 @@
         <activity android:name=".event.AsyncTaskActivity"/>
 
         <!--activity-->
-        <activity android:name=".activity.FirstActivity"
+        <activity android:name=".activity.launch.FirstActivity"
             android:exported="false"
             android:launchMode="singleInstance"
             >
@@ -49,9 +49,19 @@
             exported指定该Activity是否允许被其他应用调用
             -->
         </activity>
-        <activity android:name=".activity.SecondActivity"
+        <activity android:name=".activity.launch.SecondActivity"
             android:exported="false"
             android:launchMode="singleInstance"/>
+
+        <activity android:name=".activity.exchangedata.OriginActivity"
+            android:exported="false"/>
+
+        <activity android:name=".activity.exchangedata.TargetActivity"
+            android:exported="false"/>
+
+        <activity android:name=".activity.ActivityLifeCycle"
+            android:exported="false"/>
+
 
     </application>
 

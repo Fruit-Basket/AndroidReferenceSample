@@ -12,8 +12,9 @@ import android.widget.ExpandableListView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.fruitbasket.androidsamples.activity.FirstActivity;
-import com.fruitbasket.androidsamples.activity.SecondActivity;
+import com.fruitbasket.androidsamples.activity.ActivityLifeCycle;
+import com.fruitbasket.androidsamples.activity.exchangedata.OriginActivity;
+import com.fruitbasket.androidsamples.activity.launch.FirstActivity;
 import com.fruitbasket.androidsamples.event.AsyncTaskActivity;
 import com.fruitbasket.androidsamples.event.CallBackActivity;
 import com.fruitbasket.androidsamples.event.ConfigurationActivity;
@@ -49,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
             },
             {
                     FirstActivity.class,
-                    SecondActivity.class
+                    OriginActivity.class,
+                    ActivityLifeCycle.class
             }
     };
 
@@ -169,6 +171,9 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+
+        //test
 
     }
 

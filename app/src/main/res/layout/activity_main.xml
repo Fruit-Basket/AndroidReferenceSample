@@ -10,7 +10,7 @@
     >
 
     <!--
-    fillViewport定义ScrollView是否拉伸自己去填充整个viewport。当ScrollView没有fillVeewport=“true”时, 里面的元素(比如LinearLayout)会按照wrap_content来计算(不论它是否设了"fill_parent"),
+    fillViewport定义ScrollView是否拉伸自己去填充整个viewport。当ScrollView没有fillViewport=“true”时, 里面的元素(比如LinearLayout)会按照wrap_content来计算(不论它是否设了"fill_parent"),
     -->
 
     <LinearLayout
