@@ -27,8 +27,8 @@ public class HandlerActivity extends Activity {
     private Task task;
 
     @Override
-    protected void onCreate(Bundle onSavedInstanceState){
-        super.onCreate(onSavedInstanceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
         Log.i(TAG,"onCreate(Bundle)");
         setContentView(createContentView());
 

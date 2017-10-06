@@ -14,8 +14,8 @@ public class ActivityLifeCycle extends Activity {
     private static final String TAG=".ActivityLifeCycle";
 
     @Override
-    protected void onCreate(Bundle onSavedInstanceState){
-        super.onCreate(onSavedInstanceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
         Log.i(TAG,"onCreate(Bundle): 创建Activity时被回调，本方法只会被调用一次");
     }
 

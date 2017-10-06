@@ -23,8 +23,8 @@ public class ActionBarActivity extends Activity {
     private Button cancelB;
 
     @Override
-    protected void onCreate(Bundle onSavedInstanceState){
-        super.onCreate(onSavedInstanceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
         View contentView=createContentView();
         setContentView(contentView);
 

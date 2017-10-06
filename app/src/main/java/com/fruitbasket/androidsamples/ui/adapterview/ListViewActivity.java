@@ -30,8 +30,8 @@ public class ListViewActivity extends Activity {
     private static final String TAG="ui.adapterview.ListViewActivity";
 
     @Override
-    protected void onCreate(Bundle onSavedInstanceState){
-        super.onCreate(onSavedInstanceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.adapter_view_list);
 
         /**

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+用于.fragment.activity.FragmentContainer
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle">
+    <!--
+    showDividers="middle"在LinearLayout的每两个组件之间显示分割线
+    -->
+
+    <fragment
+        android:name="com.fruitbasket.androidsamples.fragment.activity.MyListFragment"
+        android:id="@+id/book_list_f"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+    <FrameLayout
+        android:id="@+id/book_detail_f"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+    </FrameLayout>
+
+</LinearLayout>

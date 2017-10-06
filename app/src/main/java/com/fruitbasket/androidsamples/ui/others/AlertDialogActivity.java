@@ -16,8 +16,8 @@ import android.widget.LinearLayout;
 public class AlertDialogActivity extends Activity {
 
     @Override
-    protected void onCreate(Bundle onSavedInstanceState){
-        super.onCreate(onSavedInstanceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
 
     }
 

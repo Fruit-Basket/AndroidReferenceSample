@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
  * 2.该组件提供的事件回调方法；
  * 3.传播到该组件所在的Activity。
  * 但是如果我们让任何一个事件处理方法返回了true，那么改事件将不会继续向外传播
+ *
  * Author: FruitBasket
  * Time: 2017/9/22
  * Email: FruitBasket@qq.com

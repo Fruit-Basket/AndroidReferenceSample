@@ -26,8 +26,8 @@ public class OriginActivity extends Activity {
     private RadioGroup sexRG;
 
     @Override
-    protected void onCreate(Bundle onSavedInstanceState){
-        super.onCreate(onSavedInstanceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
         setContentView(createContentView());
     }
 

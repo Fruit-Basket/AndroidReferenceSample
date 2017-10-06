@@ -21,8 +21,8 @@ public class AsyncTaskActivity extends Activity {
     private TextView textView;
 
     @Override
-    protected void onCreate(Bundle onSavedInstanceState){
-        super.onCreate(onSavedInstanceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
         setContentView(createContentView());
     }
 

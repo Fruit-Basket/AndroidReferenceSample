@@ -23,8 +23,8 @@ public class LinearLayoutActivity extends Activity {
     private static final boolean USE_XML=true;
 
     @Override
-    protected void onCreate(Bundle onSavedInstanceState){
-        super.onCreate(onSavedInstanceState);
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
 
         if(USE_XML){
             //使用xml创建UI界面

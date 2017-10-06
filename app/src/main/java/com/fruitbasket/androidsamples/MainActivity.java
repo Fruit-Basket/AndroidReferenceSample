@@ -19,6 +19,7 @@ import com.fruitbasket.androidsamples.event.AsyncTaskActivity;
 import com.fruitbasket.androidsamples.event.CallBackActivity;
 import com.fruitbasket.androidsamples.event.ConfigurationActivity;
 import com.fruitbasket.androidsamples.event.HandlerActivity;
+import com.fruitbasket.androidsamples.fragment.activity.FragmentContainer;
 import com.fruitbasket.androidsamples.ui.adapterview.ExpandableListViewActivity;
 import com.fruitbasket.androidsamples.ui.adapterview.ListViewActivity;
 import com.fruitbasket.androidsamples.ui.layout.LinearLayoutActivity;
@@ -31,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
     private final String[] packages={
             "UI",
             "Event",
-            "Activity"
+            "Activity",
+            "Fragment"
     };
     private final Class[][] classes={
             {
@@ -52,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
                     FirstActivity.class,
                     OriginActivity.class,
                     ActivityLifeCycle.class
+            },
+            {
+                    FragmentContainer.class
             }
     };
 
